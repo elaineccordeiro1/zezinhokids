@@ -1,17 +1,34 @@
-# Zezinho Kids - Loja de Roupas de Bebês
+# 🛍️ Zezinho Kids
 
-## Funcionalidades
-- Vitrine de produtos
-- Carrinho de compras
-- Finalização de pedidos
-- Login de usuário e admin
-- Painel administrativo para produtos
+Loja virtual de produtos para bebês, desenvolvida em PHP e MySQL.
 
-## Como rodar
-1. Coloque a pasta no `htdocs` (XAMPP) ou `www` (Vertrigo).
-2. No phpMyAdmin, importe `banco_loja.sql`.
-3. Acesse `http://localhost/nomedapasta`.
+## 🚀 Funcionalidades
+- 🛒 Listagem de produtos
+- ➕ Adicionar produtos ao carrinho
+- 🛍️ Finalização de pedidos
+- 🔍 Consulta de pedidos
+- 🔐 Área administrativa (admin)
 
-## Acesso Admin
-- Email: admin@zezinhokids.com
-- Senha: admin123
+## 🗄️ Banco de Dados
+Inclui o arquivo `banco_loja_corrigido_final.sql` para criar o banco e as tabelas.
+
+## 🛠️ Tecnologias Utilizadas
+- PHP
+- MySQL
+- HTML/CSS
+- Bootstrap (opcional)
+- Git + GitHub para versionamento
+
+## 📂 Estrutura de Pastas
+- `/imagens` → Imagens dos produtos
+- `/css` → Arquivo de estilo
+- `/` → Arquivos PHP e SQL
+
+## 💻 Como Executar
+1. Clone este repositório ou baixe como ZIP.
+2. Importe o banco de dados via phpMyAdmin usando o arquivo `.sql`.
+3. Coloque os arquivos na pasta do seu servidor local (XAMPP, Vertrigo, WAMP).
+4. Acesse pelo navegador: `http://localhost/nomedapasta`.
+
+## 👩‍💻 Desenvolvido por
+Elaine Cristina Cordeiro
